@@ -36,11 +36,7 @@ nav a:hover { color: #245bc2; }
     object-fit: cover;
     object-position: center top;
 }
-.pessoa img.arthur {
-    object-fit: contain;
-    object-position: center;
-    background: #e7ecf4;
-}
+
 footer { text-align: center; background: #172b4d; color: white; margin-top: 55px; padding: 23px; }
 @media (max-width: 750px) {
     .cabecalho { display: block; padding: 12px 0; }
@@ -49,6 +45,9 @@ footer { text-align: center; background: #172b4d; color: white; margin-top: 55px
     .destaque h2 { font-size: 28px; }
 }
 .pessoa img.arthur {
+    width: 100%;
+    height: 260px;
     object-fit: contain;
     object-position: center;
+    background: #e7ecf4;
 }
