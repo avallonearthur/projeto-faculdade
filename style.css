@@ -48,3 +48,13 @@ footer { text-align: center; background: #172b4d; color: white; margin-top: 55px
     .integrantes, .partes { grid-template-columns: 1fr; }
     .destaque h2 { font-size: 28px; }
 }
+.pessoa img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.pessoa img.arthur {
+    object-position: center top;
+}
