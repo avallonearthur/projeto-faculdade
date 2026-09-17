@@ -19,9 +19,26 @@ nav a:hover { color: #245bc2; }
 .integrantes, .partes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .pessoa { text-align: center; }
 .pessoa h4 { margin-bottom: 0; }
-.foto, .pessoa img { width: 100%; height: 200px; border-radius: 7px; }
-.foto { background: #e7ecf4; display: flex; align-items: center; justify-content: center; color: #59687f; }
-.pessoa img { object-fit: cover; }
+.foto, .pessoa img {
+    width: 100%;
+    height: 260px;
+    border-radius: 7px;
+}
+.foto {
+    background: #e7ecf4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #59687f;
+}
+.pessoa img {
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+.pessoa img.arthur {
+    object-position: center 12%;
+}
 footer { text-align: center; background: #172b4d; color: white; margin-top: 55px; padding: 23px; }
 @media (max-width: 750px) {
     .cabecalho { display: block; padding: 12px 0; }

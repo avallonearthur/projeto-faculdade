@@ -22,14 +22,14 @@
         <section class="destaque">
             <p class="etiqueta">Etapa 01 • Apresentação do projeto</p>
             <h2>Sistema de Combate ao Incêndio</h2>
-            <p>Sistema de detecção e alarme de incêndio voltado à proteção de estruturas tombadas.</p>
+            <p>Sistema de detecção e alarme de incêndio voltado à proteção de estruturas tombadas, com foco em soluções de baixa intervenção física e preservação da integridade arquitetônica original.</p>
         </section>
 
         <section id="etapas" class="secao">
             <h2>Etapas do projeto</h2>
             <div class="caixa">
                 <h3>Etapa 01 — Proposta</h3>
-                <p>Apresentação do grupo e da proposta do projeto. As próximas etapas serão disponibilizadas aqui conforme o desenvolvimento.</p>
+                <p>Apresentação do grupo, da proposta do projeto e da estrutura básica de funcionamento do sistema. As próximas etapas serão disponibilizadas aqui conforme o desenvolvimento.</p>
             </div>
         </section>
 
@@ -41,15 +41,15 @@
             <h3>Integrantes</h3>
             <div class="integrantes">
                 <article class="pessoa">
-                    <img src="arthur.png" alt="Foto de Arthur Cardoso Lima Avallone">
+                    <img class="arthur" src="imagens/arthur.png" alt="Foto de Arthur Cardoso Lima Avallone">
                     <h4>Arthur Cardoso Lima Avallone</h4>
                 </article>
                 <article class="pessoa">
-                    <img src="murilo.jpg" alt="Foto de Murilo Ribeiro Pereira">
+                    <img src="imagens/murilo.jpg" alt="Foto de Murilo Ribeiro Pereira">
                     <h4>Murilo Ribeiro Pereira</h4>
                 </article>
                 <article class="pessoa">
-                    <div class="foto">Foto a adicionar</div>
+                    <img src="imagens/wilson.jpg" alt="Foto de Wilson Leandro Souza Junior">
                     <h4>Wilson Leandro Souza Junior</h4>
                 </article>
             </div>
@@ -58,20 +58,21 @@
         <section id="proposta" class="secao">
             <h2>Proposta do projeto</h2>
             <div class="caixa">
-                <p>Desenvolver um protótipo de sistema de detecção e alarme de incêndio voltado à proteção do patrimônio tombado associado à Seleção Brasileira. A proposta prioriza soluções de instalação minimamente invasivas, com o objetivo de reduzir intervenções na estrutura existente e preservar suas características arquitetônicas e sua integridade física.</p>
+                <p>Desenvolver um protótipo de sistema de detecção e alarme de incêndio voltado à proteção do patrimônio tombado associado à Seleção Brasileira. A proposta prioriza soluções de instalação minimamente invasivas, com o objetivo de reduzir intervenções na estrutura existente, preservar suas características arquitetônicas e manter a integridade física do bem protegido.</p>
+                <p>Trata-se de uma aplicação prática para o monitoramento contínuo de ambientes construídos, com potencial de uso em edificações históricas e culturais que exigem medidas de proteção compatíveis com a conservação da estrutura original.</p>
             </div>
             <div class="partes">
                 <article class="caixa">
                     <h3>1. Sinais de entrada</h3>
-                    <p>Sensores DHT11 (temperatura e umidade) e MQ-2 (gás/fumaça) coletam informações do ambiente.</p>
+                    <p><strong>Sensores:</strong> DHT11 para temperatura e umidade, e MQ-2 para gás e fumaça. Esses dispositivos coletam os sinais de entrada do ambiente para análise do sistema.</p>
                 </article>
                 <article class="caixa">
                     <h3>2. Processamento</h3>
-                    <p>Microcontroladores ESP32 interpretam os dados recebidos e executam a lógica de monitoramento.</p>
+                    <p><strong>CPU:</strong> microcontroladores ESP32 realizam o processamento dos dados e executam a lógica de monitoramento, comunicação e tomada de decisão.</p>
                 </article>
                 <article class="caixa">
                     <h3>3. Sinais de saída</h3>
-                    <p>Buzzers, LEDs e bombas d'água são os atuadores previstos para sinalização e acionamento do protótipo.</p>
+                    <p><strong>Relés e atuadores:</strong> buzzers, LEDs e bombas d'água compõem os sinais de saída e o acionamento do protótipo em situações de alerta.</p>
                 </article>
             </div>
         </section>
