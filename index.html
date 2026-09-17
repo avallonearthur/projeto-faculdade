@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto | Sistema de Detecção e Alarme de Incêndio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container cabecalho">
+            <h1>Projeto acadêmico</h1>
+            <nav>
+                <a href="#etapas">Etapas</a>
+                <a href="#grupo">Grupo</a>
+                <a href="#proposta">Proposta</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="destaque">
+            <p class="etiqueta">Etapa 01 • Apresentação do projeto</p>
+            <h2>Sistema de Detecção e Alarme de Incêndio</h2>
+            <p>Proposta de automação para monitoramento de ambientes, baseada no TCC fornecido.</p>
+        </section>
+
+        <section id="etapas" class="secao">
+            <h2>Etapas do projeto</h2>
+            <div class="caixa">
+                <h3>Etapa 01 — Proposta</h3>
+                <p>Apresentação do grupo e da proposta do projeto. As próximas etapas serão disponibilizadas aqui conforme o desenvolvimento.</p>
+            </div>
+        </section>
+
+        <section id="grupo" class="secao">
+            <h2>Nosso grupo</h2>
+            <div class="caixa">
+                <!-- Substitua o texto abaixo pelo nome escolhido pelo grupo. -->
+                <p><strong>Nome do grupo:</strong> A definir</p>
+                <!-- Caso o grupo não tenha fanpage, pode deixar “Não possui”. -->
+                <p><strong>Fanpage:</strong> Não informada</p>
+            </div>
+            <h3>Integrantes</h3>
+            <div class="integrantes">
+                <article class="pessoa">
+                    <!-- Troque o bloco de foto por <img src="imagens/arthur.jpg" alt="Foto de Arthur"> -->
+                    <div class="foto">Foto a adicionar</div>
+                    <h4>Arthur Cardoso Lima Avallone</h4>
+                </article>
+                <article class="pessoa">
+                    <!-- Troque o bloco de foto por <img src="imagens/murilo.jpg" alt="Foto de Murilo"> -->
+                    <div class="foto">Foto a adicionar</div>
+                    <h4>Murilo Ribeiro Pereira</h4>
+                </article>
+                <article class="pessoa">
+                    <!-- Troque o bloco de foto por <img src="imagens/wilson.jpg" alt="Foto de Wilson"> -->
+                    <div class="foto">Foto a adicionar</div>
+                    <h4>Wilson Leandro Souza Junior</h4>
+                </article>
+            </div>
+        </section>
+
+        <section id="proposta" class="secao">
+            <h2>Proposta do projeto</h2>
+            <div class="caixa">
+                <p>Desenvolver um protótipo de Sistema de Detecção e Alarme de Incêndio (SDAI), baseado em IoT, com baixo custo e instalação simplificada. A aplicação proposta é o monitoramento de ambientes do Colégio Técnico de Campinas (Cotuca), com possibilidade de adaptação a outros ambientes do dia a dia.</p>
+            </div>
+            <div class="partes">
+                <article class="caixa">
+                    <h3>1. Sinais de entrada</h3>
+                    <p>Sensores DHT11 (temperatura e umidade) e MQ-2 (gás/fumaça) coletam informações do ambiente.</p>
+                </article>
+                <article class="caixa">
+                    <h3>2. Processamento</h3>
+                    <p>Microcontroladores ESP32 interpretam os dados recebidos e executam a lógica de monitoramento.</p>
+                </article>
+                <article class="caixa">
+                    <h3>3. Sinais de saída</h3>
+                    <p>Buzzers, LEDs e bombas d'água são os atuadores previstos para sinalização e acionamento do protótipo.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>Projeto acadêmico • Etapa 01</footer>
+</body>
+</html>
