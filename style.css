@@ -37,7 +37,9 @@ nav a:hover { color: #245bc2; }
     object-position: center top;
 }
 .pessoa img.arthur {
-    object-position: center 12%;
+    object-fit: contain;
+    object-position: center;
+    background: #e7ecf4;
 }
 footer { text-align: center; background: #172b4d; color: white; margin-top: 55px; padding: 23px; }
 @media (max-width: 750px) {
