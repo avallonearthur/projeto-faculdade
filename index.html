@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -11,7 +12,7 @@
         <div class="container cabecalho">
             <h1>Projeto acadêmico</h1>
             <nav>
-                <a href="#etapas">Etapas</a>
+                <a href="#funcionamento">Funcionamento</a>
                 <a href="#grupo">Grupo</a>
                 <a href="#proposta">Proposta</a>
             </nav>
@@ -20,34 +21,55 @@
 
     <main class="container">
         <section class="destaque">
-            <p class="etiqueta">Etapa 01 • Apresentação do projeto</p>
+            <p class="etiqueta">Projeto acadêmico</p>
             <h2>Sistema de Combate ao Incêndio</h2>
             <p>Sistema de detecção e alarme de incêndio voltado à proteção de estruturas tombadas, com foco em soluções de baixa intervenção física e preservação da integridade arquitetônica original.</p>
         </section>
 
-        <section id="etapas" class="secao">
-            <h2>Etapas do projeto</h2>
+        <section id="funcionamento" class="secao">
+            <h2>Funcionamento do sistema</h2>
             <div class="caixa">
-                <h3>Etapa 01 — Proposta</h3>
-                <p>Apresentação do grupo, da proposta do projeto e da estrutura básica de funcionamento do sistema. As próximas etapas serão disponibilizadas aqui conforme o desenvolvimento.</p>
+                <p>O sistema realiza o monitoramento do ambiente por meio de sensores conectados a microcontroladores ESP32. Os dados coletados são analisados para identificar possíveis situações de risco e, quando necessário, acionar os dispositivos de alerta e resposta do protótipo.</p>
+            </div>
+
+            <div class="partes">
+                <article class="caixa">
+                    <h3>1. Sinais de entrada</h3>
+                    <p><strong>Sensores:</strong> o DHT11 realiza a medição de temperatura e umidade, enquanto o MQ-2 identifica a presença de gases e fumaça no ambiente.</p>
+                </article>
+
+                <article class="caixa">
+                    <h3>2. Processamento</h3>
+                    <p><strong>Microcontroladores ESP32:</strong> recebem e processam os dados dos sensores, executam a lógica de monitoramento e realizam a comunicação entre os dispositivos do sistema.</p>
+                </article>
+
+                <article class="caixa">
+                    <h3>3. Sinais de saída</h3>
+                    <p><strong>Dispositivos de acionamento:</strong> relés, buzzers, LEDs e bombas d'água compõem as saídas do protótipo, permitindo a emissão de alertas e o acionamento dos dispositivos previstos para situações de risco.</p>
+                </article>
             </div>
         </section>
 
         <section id="grupo" class="secao">
             <h2>Nosso grupo</h2>
+
             <div class="caixa">
                 <p><strong>Nome do grupo:</strong> Sistema de Combate ao Incêndio</p>
             </div>
+
             <h3>Integrantes</h3>
+
             <div class="integrantes">
                 <article class="pessoa">
-    <img src="arthur-novo.png" alt="Foto de Arthur Cardoso Lima Avallone" style="width: 100%; height: 260px; object-fit: contain; background: #e7ecf4; border-radius: 7px;">
-    <h4>Arthur Cardoso Lima Avallone</h4>
-</article>
+                    <img class="arthur" src="arthur-novo.png" alt="Foto de Arthur Cardoso Lima Avallone">
+                    <h4>Arthur Cardoso Lima Avallone</h4>
+                </article>
+
                 <article class="pessoa">
                     <img src="murilo.jpg" alt="Foto de Murilo Ribeiro Pereira">
                     <h4>Murilo Ribeiro Pereira</h4>
                 </article>
+
                 <article class="pessoa">
                     <img src="wilson.jpg" alt="Foto de Wilson Leandro Souza Junior">
                     <h4>Wilson Leandro Souza Junior</h4>
@@ -57,27 +79,16 @@
 
         <section id="proposta" class="secao">
             <h2>Proposta do projeto</h2>
+
             <div class="caixa">
                 <p>Desenvolver um protótipo de sistema de detecção e alarme de incêndio voltado à proteção do patrimônio tombado associado à Seleção Brasileira. A proposta prioriza soluções de instalação minimamente invasivas, com o objetivo de reduzir intervenções na estrutura existente, preservar suas características arquitetônicas e manter a integridade física do bem protegido.</p>
+
                 <p>Trata-se de uma aplicação prática para o monitoramento contínuo de ambientes construídos, com potencial de uso em edificações históricas e culturais que exigem medidas de proteção compatíveis com a conservação da estrutura original.</p>
-            </div>
-            <div class="partes">
-                <article class="caixa">
-                    <h3>1. Sinais de entrada</h3>
-                    <p><strong>Sensores:</strong> DHT11 para temperatura e umidade, e MQ-2 para gás e fumaça. Esses dispositivos coletam os sinais de entrada do ambiente para análise do sistema.</p>
-                </article>
-                <article class="caixa">
-                    <h3>2. Processamento</h3>
-                    <p><strong>CPU:</strong> microcontroladores ESP32 realizam o processamento dos dados e executam a lógica de monitoramento, comunicação e tomada de decisão.</p>
-                </article>
-                <article class="caixa">
-                    <h3>3. Sinais de saída</h3>
-                    <p><strong>Relés e atuadores:</strong> buzzers, LEDs e bombas d'água compõem os sinais de saída e o acionamento do protótipo em situações de alerta.</p>
-                </article>
             </div>
         </section>
     </main>
 
-    <footer>Projeto acadêmico • Etapa 01</footer>
+    <footer>Projeto acadêmico • Sistema de Combate ao Incêndio</footer>
 </body>
 </html>
+```
